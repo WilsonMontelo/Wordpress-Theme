@@ -1,0 +1,135 @@
+/*
+Theme Name: Projeto
+Theme URI: http://Plugue.net
+Description: 
+Author: Wilson Montelo
+Author URI: 
+Version:1.0
+*/
+@import url("reset.css");
+@import url("responsivo.css");
+/* Funcões CSS3*/
+img,
+picture,
+video,
+embed {
+  max-width: 100%;
+}
+.text-xs-left {
+  text-align: left !important;
+}
+.text-xs-right {
+  text-align: right !important;
+}
+.text-xs-center {
+  text-align: center !important;
+}
+.text-xs-justify {
+  text-align: justify !important;
+}
+body {
+  font-size: 62.5%;
+}
+body .centraliza {
+  max-width: ;
+  margin: 0 auto;
+}
+body a,
+body a:active,
+body a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+body a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+body .separator {
+  clear: both;
+}
+body .relative {
+  position: relative;
+}
+.menu_fixo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+#content {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#content h1 {
+  font-family: ;
+  font-weight: bold;
+  color: #313030;
+  font-size: 4.5em;
+}
+#content h2 {
+  font-family: ;
+  font-weight: bold;
+  color: #313030;
+  font-size: 4.0em;
+}
+#content h3 {
+  font-family: ;
+  font-weight: bold;
+  color: #313030;
+  font-size: 3.5em;
+}
+#content h4 {
+  font-family: ;
+  font-weight: bold;
+  color: #313030;
+  font-size: 3.0em;
+}
+#content h5 {
+  font-family: ;
+  font-weight: bold;
+  color: #313030;
+  font-size: 2.5em;
+}
+#content h6 {
+  font-family: ;
+  font-weight: bold;
+  color: #313030;
+  font-size: 2.0em;
+}
+#content p {
+  font-family: ;
+  color: #313030;
+  font-size: 1.8em;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+#content ul {
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+#content ul li {
+  font-family: ;
+  color: #313030;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+#content ol li {
+  font-family: ;
+  color: #313030;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+#content pre {
+  font-family: ;
+  color: #313030;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+#content address {
+  font-family: ;
+  color: #313030;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
