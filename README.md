@@ -1,2 +1,2 @@
-# wordpress-theme
+# WORDPRESS THEME BLANK
 Theme for project start
