@@ -1,13 +1,10 @@
-	<div id="footer">
-        <div id="menu">
-            <?php wp_nav_menu( 
-                array( 
-                  'theme_location' => 'footer-menu' )
-                ); 
-            ?>
-    		
-    	</div>
-    </div>   
+	<footer>
+        <?php wp_nav_menu( 
+            array( 
+              'theme_location' => 'top-menu' )
+            ); 
+        ?>
+   </footer>  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Java do Bootstrap -->
